@@ -16,11 +16,11 @@ Ctrl+S, Ctrl + X
  
 **2. SINGLE LINE COMMAND. Після цього ВСЕ ПРАЦЮЄ ВІДРАЗУ:**
 ```
-sudo wget https://pastebin.com/raw/MNWnLCLn --output-document=/usr/sbin/rasha_caput.sh && sudo wget https://pastebin.com/raw/Ztz5YxLR --output-document=/usr/sbin/rasha_parasha && sudo sed -i -e 's/\r$//' /usr/sbin/rasha* && sudo chmod +x /usr/sbin/rasha* && sudo /usr/sbin/rasha_caput.sh ; /usr/sbin/rasha_parasha ; echo done
+sudo wget https://pastebin.com/raw/MNWnLCLn --output-document=/usr/sbin/rasha_caput.sh && sudo wget https://pastebin.com/raw/Ztz5YxLR --output-document=/usr/sbin/rasha_parasha && sudo sed -i -e 's/\r$//' /usr/sbin/rasha* && sudo chmod +x /usr/sbin/rasha* && sudo /usr/sbin/rasha_caput.sh ; sudo /usr/sbin/rasha_parasha ; echo done
 ``` 
 **3. Якщо щось не запущено, запускаємо:**
 ``` 
-/usr/sbin/rasha_parasha
+sudo /usr/sbin/rasha_parasha
 ``` 
 Перевіряємо:
 ``` 
