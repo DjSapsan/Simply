@@ -1,4 +1,6 @@
 # Simply
+## Starts 3 different docker images from scratch.
+_tich92/ya-route, tich92/siteattconsole, erikmnkl/stoppropaganda_
 
 After you installed Ubuntu:
  
