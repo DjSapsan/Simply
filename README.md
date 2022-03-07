@@ -33,3 +33,6 @@ sudo docker ps
     SINGLE LINE COMMAND може бути запущена в будь-який момент для обнов і фіксів**
 
 ## SINGLE LINE COMMAND ніколи не змінюється, навіть у разі змін скріптів. Тому можна спокійно юзати на нових машинах
+
+Результат (4x  1vCPU, 4 GiB RAM)
+![image](https://user-images.githubusercontent.com/12209464/157055302-8aa3e306-d9b7-458d-a284-d4e5899911ec.png)
