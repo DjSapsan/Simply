@@ -1,5 +1,5 @@
 # Simply
-## Starts 3 different docker images from scratch.
+## Starts 3 different docker images from scratch. Use only on a hosted VM or with VPN.
 _tich92/ya-route, tich92/siteattconsole, erikmnkl/stoppropaganda_
 
 After you installed Ubuntu:
