@@ -9,6 +9,7 @@ After you installed Ubuntu:
 crontab -e
 ```
 Select number 1 (Text editor nano)
+
 At the bottom add the next line:
 ``` 
 @reboot /usr/sbin/rasha_parasha
@@ -29,8 +30,9 @@ Check docker:
 sudo docker ps
 ``` 
 **4.  To change the IP and to download the latest versions it's enough to stop/start the VM on the web hosting interface.
-    To just use the latest image release - type: /usr/sbin/rasha_parasha
-    SINGLE LINE COMMAND can be type at the any moment to fix something or use the latest updates**
+    To just use the latest image release - type: /usr/sbin/rasha_parasha**
+    
+   **SINGLE LINE COMMAND can be type at the any moment to fix something or to get the latest updates**
 
 ## SINGLE LINE COMMAND never changes, even in the case of scripts changes. You can always use it in the future setups
 
