@@ -1,38 +1,38 @@
 # Simply
-## Starts 3 different docker images from scratch. Use only on a hosted VM or with VPN.
-_tich92/ya-route, tich92/siteattconsole, erikmnkl/stoppropaganda_
+## Starts 2 different docker images from first-time-ubuntu scratch. Use only on a hosted VM or with VPN.
+_tich92/siteattconsole, erikmnkl/stoppropaganda_
 
 After you installed Ubuntu:
  
-**1. Настройка автозапуску:**
+**1. Autostart setup:**
 ```
 crontab -e
 ```
-Вибираємо пункт 1 (Редактор nano)
-В самому низу закидуємо:
+Select number 1 (Text editor nano)
+At the bottom add the next line:
 ``` 
 @reboot /usr/sbin/rasha_parasha
 ```
-Натискаємо
+Hit:
 Ctrl+S, Ctrl + X
  
-**2. SINGLE LINE COMMAND. Після цього ВСЕ ПРАЦЮЄ ВІДРАЗУ:**
+**2. SINGLE LINE COMMAND. After that everything is working:**
 ```
 sudo wget https://pastebin.com/raw/MNWnLCLn --output-document=/usr/sbin/rasha_caput.sh && sudo wget https://pastebin.com/raw/Ztz5YxLR --output-document=/usr/sbin/rasha_parasha && sudo sed -i -e 's/\r$//' /usr/sbin/rasha* && sudo chmod +x /usr/sbin/rasha* && sudo /usr/sbin/rasha_caput.sh ; sudo /usr/sbin/rasha_parasha ; echo done
 ``` 
-**3. Якщо щось не запущено, запускаємо:**
+**3. If docker doesn't run then start the script again:**
 ``` 
 sudo /usr/sbin/rasha_parasha
 ``` 
-Перевіряємо:
+Check docker:
 ``` 
 sudo docker ps
 ``` 
-**4.  Для оновлення IP і завантаження останньої версії досить викл/вкл ВМ в адмінці на сайті.
-    Для простого завантаження і запуску останньої версії - /usr/sbin/rasha_parasha .
-    SINGLE LINE COMMAND може бути запущена в будь-який момент для обнов і фіксів**
+**4.  To change the IP and to download the latest versions it's enough to stop/start the VM on the web hosting interface.
+    To just use the latest image release - type: /usr/sbin/rasha_parasha
+    SINGLE LINE COMMAND can be type at the any moment to fix something or use the latest updates**
 
-## SINGLE LINE COMMAND ніколи не змінюється, навіть у разі змін скріптів. Тому можна спокійно юзати на нових машинах
+## SINGLE LINE COMMAND never changes, even in the case of scripts changes. You can always use it in the future setups
 
-Результат (4x  1vCPU, 4 GiB RAM)
+Example result on Azure (4x  1vCPU, 4 GiB RAM):
 ![image](https://user-images.githubusercontent.com/12209464/157055302-8aa3e306-d9b7-458d-a284-d4e5899911ec.png)
