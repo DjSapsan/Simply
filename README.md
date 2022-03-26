@@ -37,5 +37,6 @@ sudo docker ps
 ## SINGLE LINE COMMAND never changes, even in the case of scripts changes. You can always use it in the future setups
 
 Additional info: for all docker operations you'll need to use 'sudo'
+
 Example result on Azure (4x  1vCPU, 4 GiB RAM):
 ![image](https://user-images.githubusercontent.com/12209464/157055302-8aa3e306-d9b7-458d-a284-d4e5899911ec.png)
